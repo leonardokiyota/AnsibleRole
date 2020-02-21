@@ -1,0 +1,89 @@
+---
+
+debian_packages:
+   - sysstat
+   - iptraf
+   - iptraf-ng
+   - net-tools
+   - vim
+   - htop
+   - collectd
+   - build-essential
+   - ncurses-dev
+   - autofs
+   - btrfs-tools
+   - wodim
+   - smartmontools
+   - xfsprogs
+   - xfsdump
+   - udftools
+   - cryptsetup
+   - genisoimage
+   - mdadm
+   - sdparm
+   - nvme-cli
+   - tgt
+   - open-iscsi
+   - lvm2
+   - nmap
+   - tcpdump
+   - arpwatch
+   - dnsutils
+    
+redhat_packages:
+   - sysstat
+   - iptraf
+   - iptraf-ng
+   - net-tools
+   - vim
+   - htop
+   - collectd
+   - autofs
+   - wodim
+   - smartmontools
+   - xfsprogs
+   - xfsdump
+   - cryptsetup
+   - genisoimage
+   - mdadm
+   - nvme-cli
+   - targetcli
+   - iscsi-initiator-utils
+   - lvm2
+   - nmap
+   - tcpdump
+   - arpwatch
+   - bind-utils
+
+opensuse_packages:
+   - sysstat
+   - iptraf-ng
+   - net-tools
+   - vim
+   - htop
+   - collectd
+   - ncurses-devel
+   - autofs
+   - btrfsprogs
+   - btrfsmaintenance
+   - smartmontools
+   - xfsprogs
+   - xfsdump
+   - udftools
+   - cryptsetup
+   - mdadm
+   - patterns-devel-C-C++-devel_C_C++
+   - libelf-devel
+   - bc
+   - python2-py-cpuinfo
+   - sdparm
+   - nvme-cli
+   - tgt
+   - open-iscsi
+   - lvm2
+   - nmap
+   - tcpdump
+   - arpwatch
+   - bind-utils
+
+...

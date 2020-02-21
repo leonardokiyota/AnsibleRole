@@ -1,0 +1,18 @@
+---
+
+# Update Red Hat Like
+- name: Update System Red Hat Like
+  yum: name=* state=latest security=yes
+  when: ansible_distribution == 'CentOS' or ansible_distribution == 'RedHat'
+
+# Update Debian Like
+- name: Update System Debian Like
+  apt: update_cache=yes upgrade=yes
+  when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+
+# Upgrade Opensuse / SLES
+- name: Update System OpenSuse
+  zypper: name=* state=latest type=patch
+  when: ansible_distribution == 'openSUSE Leap'
+
+...
