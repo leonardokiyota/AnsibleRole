@@ -59,6 +59,7 @@ opensuse_packages:
    - sysstat
    - iptraf-ng
    - net-tools
+   - net-tools-deprecated
    - vim
    - htop
    - collectd
